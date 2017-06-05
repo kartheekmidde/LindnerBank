@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Project Status";
+}
+<h2>@ViewBag.Title</h2>
+@*<h3>@ViewBag.Message</h3>*@
+
+<p><strong><u>Financial Resources Page</u></strong></p>
+<ul>
+    <li>Correctly used the link element to create links to other online resources. All links to 3rd party sites open in a new window.</li>
+    <li>Clear visual delineation of parent and child resources</li>
+</ul>
+
+<p><strong><u>Account List View</u></strong></p>
+<ul>
+    <li>Correctly redirecting an account recipient directly to their account details page skipping the account list. Also the correct accounts are displayed for the logged in owner.</li>
+</ul>
+
+<p><strong><u>Account Management</u></strong></p>
+<ul>
+    <li>Ability to add an account completes successfully</li>
+    <li>Ability to edit an account successfully edits the account. Only the account owner can edit the account. An account recipient can not see any UI related to editing the account</li>
+    <li>Ability to delete an account. Delete button available only to account owners. An account recipient can not see any UI related to editing the account</li>
+    <li>Validation works correctly on create and edit</li>
+</ul>
+
+<p><strong><u>Transaction Functionality</u></strong></p>
+<ul>
+    <li>Adding a transaction is successful</li>
+    <li>Deleting a transaction successfully removes the wish list item transaction. The user is prompted before being able to delete a transaction and the delete uses the HTTP POST method</li>
+    <li>A recipient (child) cannot delete, add, or edit a transaction</li>
+    <li>The transaction cannot be viewed, edited, or deleted by someone who is not the owner or the recipient</li>
+    <li>Implemented the validation rules</li>
+</ul>
+
+<p><strong><u>Wishlist Functionality</u></strong></p>
+<ul>
+    <li>Adding a wish list item is successful</li>
+    <li>Editing a wish list item successfully update the wish list item</li>
+    <li>Deleting a wish list item successfully removes the wish list item. The user is prompted before deleting the wish list item and the delete uses the HTTP POST method</li>
+    <li>The wish list item cannot be viewed, edited, or deleted by someone who is not the owner or the recipient</li>
+    <li>All validation rules are applied</li>
+</ul>
+
+<p><strong><u>Transaction Details View</u></strong></p>
+<ul>
+    <li>Displaying date of deposit/withdrawl, transaction note, amount of deposit/withdrawl</li>
+</ul>
